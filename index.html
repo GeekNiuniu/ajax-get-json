@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+
+	<title></title>
+  <script     src="jquery-1.12.3.min.js" ></script>
+  
+	<script type="text/javascript">
+	function $1(k){
+    var x=document.querySelectorAll(k);
+    var index=0;
+    if(x.length==0)
+          return null;
+      if(x.length==1)
+      return (document.querySelector(k).nodeType);
+       if(x.length>1)
+       	for(;index<x.length;index++)
+       		return ( x[index].nodeType);
+
+	}
+</script>
+
+
+
+</head>
+<body>
+
+  <p>1</p>
+  <p>2</p>
+
+<button id="btn1" onclick="loadXMLDoc()">点我了解我  </button>
+
+
+</body>
+
+<script src="ajax.js"></script>
+
+</html>
+
+
+
+
+
